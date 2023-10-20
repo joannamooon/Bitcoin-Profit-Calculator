@@ -1,0 +1,82 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 20px;
+}
+
+/* Style the page title */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Style the input forms and labels */
+form {
+    text-align: center;
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+input.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the calculated results */
+h2, h3 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+span.number {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Style the table */
+table.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
